@@ -1,1 +1,27 @@
+#Every Minute of Every Day
+     * * * * * /home/user/script.sh
+#OR
+     0-59 0-23 0-31 0-12 0-7 /home/user/script.sh
 
+
+#Every 10 Minutes of Every Day
+     */10 * * * * /home/user/script.sh
+ #OR
+     0-59/10 * * * * /home/user/script.sh
+ #OR
+     0,10,20,30,40,50 * * * * /home/user/script.sh
+  
+  
+ #Every day at midnight
+      0 0 * * * /home/user/script.sh
+  #OR
+      0 0 * * 0-7 /home/user/script.sh
+   
+   
+#Thrice Daily
+     0 */8 * * * /home/user/script.sh
+ #OR
+     0 0-23/8 * * * /home/user/script.sh
+ #OR
+      0 0,8,16 * * * /home/user/script.sh
+ 
