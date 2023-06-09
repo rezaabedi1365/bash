@@ -23,3 +23,19 @@
 ```
 */20 * * * * /home/user/script.sh
 ```
+# Using special strings
+@reboot
+###### Run once, at system startup
+@yearly and @annually
+###### Run once every year, “0 0 1 1 *”
+@monthly
+###### Run once every month, “0 0 1 * *”
+@weekly
+###### Run once every week, “0 0 * * 0”
+@daily and @midnight
+###### Run once each day, “0 0 * * *”
+@hourly
+###### Run once an hour, “0 * * * *”
+
+
+
