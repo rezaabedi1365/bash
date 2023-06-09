@@ -1,0 +1,8 @@
+
+#Every weekday at 6 am
+    0 06 * * 1-5 /home/user/script.sh
+  
+#Weekends at 6 am
+    0 06 * * 6,7 /home/user/script.sh
+   #OR
+    0 06 * * 6-7 /home/user/script.sh
