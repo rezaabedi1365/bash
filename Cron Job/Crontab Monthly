@@ -1,0 +1,10 @@
+
+#Monthly on the 20th at 6 am
+    0 06 20 * * /home/user/script.sh
+    
+#Monthly every 4 days at 6 am
+     0 06 */4 * * /home/user/script.sh
+     
+#Every 4 Months at 6 am on the 10th
+    0 06 10 */4 * /home/user/script.sh
+    
