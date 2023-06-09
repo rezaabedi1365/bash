@@ -37,5 +37,19 @@
 @hourly
 ###### Run once an hour, “0 * * * *”
 
+# To Generate a log file
+###### To store the cron output in a file, use the closing bracket (>) again and for store with save before log use the ( >> )
+```
+10 * * * * /usr/bin/php /www/virtual/username/script.py > /var/log/cron.log
+```
+```
+10 * * * * /usr/bin/php /www/virtual/username/script.py >> /var/log/cron.log
+```
+###### To store without log
+```
+10 * * * * /usr/bin/php /www/virtual/username/script.py >/dev/null 2>&1
+```
+
+
 
 
