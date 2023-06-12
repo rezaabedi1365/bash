@@ -1,5 +1,5 @@
 
-![AWK Link](https://www.digitalocean.com/community/tutorials/awk-command-linux-unix)
+![(https://www.digitalocean.com/community/tutorials/awk-command-linux-unix)](https://www.digitalocean.com/community/tutorials/awk-command-linux-unix)
 
 # AWK
 ```
