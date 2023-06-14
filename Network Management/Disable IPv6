@@ -1,0 +1,9 @@
+
+#https://adamtheautomator.com/disable-ipv6/
+
+#disable in spesific Network Adapter
+Disable-NetAdapterBinding -Name 'Ethernet' -ComponentID 'ms_tcpip6'
+
+
+#disable in all Network Adapter
+Disable-NetAdapterBinding -Name '*' -ComponentID 'ms_tcpip6'
