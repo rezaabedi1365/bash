@@ -20,7 +20,27 @@ network:
           addresses: [178.22.122.100,185.51.200.2]
     ens161:
       dhcp4: true
-
+----------------------------------------------------
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    ens160:
+      dhcp4: no
+      addresses:
+        - 10.10.11.110/24
+      gateway4: 10.10.11.1
+      nameservers:
+          addresses: [178.22.122.100,185.51.200.2]
+    ens224:
+      dhcp4: no
+      addresses:
+        - 10.10.11.50/24
+    ens256:
+      dhcp4: true
+    ens192:
+      dhcp4: true
+------------------------------------------------------
 
 #sudo netplan apply
 #sudo netplan --debug apply
