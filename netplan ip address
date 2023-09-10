@@ -1,0 +1,26 @@
+network:
+  version: 2
+# renderer: NetworkManager
+  renderer: networkd
+  ethernets:
+    ens160:
+#     dhcp4: true
+      dhcp4: no
+#     addresses: [10.10.11.110/24]
+      addresses:
+        - 10.10.11.110/24
+#     gateway4: 10.10.11.1
+      gateway4: 
+        - 10.10.11.1
+      routes:
+        - to: default
+          via: 10.10.10.1
+      nameservers:
+#         search: [mydomain, otherdomain]
+          addresses: [178.22.122.100,185.51.200.2]
+    ens161:
+      dhcp4: true
+
+
+#sudo netplan apply
+#sudo netplan --debug apply
