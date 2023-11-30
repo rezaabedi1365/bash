@@ -1,6 +1,7 @@
 # useful-bash-scripts
 This repository hosts some useful bash scripts for training purposes 
-![bash script](./assets/bash-wallpaper.jpg)
+![image](https://github.com/rezaabedi1365/bash/assets/117336743/37c352f0-b0cf-4698-bfe5-7a3c5ee2ca16)
+
 # Bash Shell Scripting Notes
 Shell Scripting Short Notes &amp; Reference
 
