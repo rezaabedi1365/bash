@@ -221,7 +221,7 @@ main ()
 
   echo
   echo "The repository is setup! You can now install packages."
-}
+} 
 
 main
 
