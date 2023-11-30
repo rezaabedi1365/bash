@@ -1,4 +1,5 @@
 # determine architecture of host
+arch () {
 ARCH=$(uname -m)
 if [[ $ARCH = *x86_64* ]]; then
 	# host is running a 64-bit kernel
@@ -20,4 +21,5 @@ else
 	# host is running a non-supported kernel
 	echo -e "Architecture not supported by YABS."
 	exit 1
-fi
+fi 
+}
