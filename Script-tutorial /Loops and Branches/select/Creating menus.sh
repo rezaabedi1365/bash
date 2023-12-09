@@ -3,8 +3,7 @@
 #!/bin/bash
 
 PS3='Choose your favorite vegetable: ' # Sets the prompt string.
-                                       # Otherwise it defaults to #? .
-
+                                    
 echo
 
 select vegetable in "beans" "carrots" "potatoes" "onions" "rutabagas"
