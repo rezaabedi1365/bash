@@ -19,8 +19,8 @@ do
 done
 }
 
-choice_of beans rice carrots radishes rutabaga spinach
-#         $1    $2   $3      $4       $5       $6
-#         passed to choice_of() function
+###call funtion 
+//choice_of beans rice carrots radishes rutabaga spinach
+//           $1    $2    $3      $4       $5       $6
 
 exit 0
