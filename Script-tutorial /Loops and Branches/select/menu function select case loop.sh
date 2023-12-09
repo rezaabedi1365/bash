@@ -1,7 +1,7 @@
-
+#abedi
 #!/bin/bash
 
-echo "application menu install "                           #show prompt before selection
+echo "application menu install "                                     #show prompt before selection
 PS3='Choose your application  : '                                    #show prompt after selection
 
 echo
@@ -12,17 +12,16 @@ select application
 
 do
 case $application in 
-               
-     echo "you select $application"    
-     apt install $application                                    #if your return code been with error you fall in the loop   also you must use breake after command
-    ;;
-
-     "exit")
+"exit")
       echo "Goodby"
       break
     ;;
-  *)
-    echo "you select invalid Selection application"
+    *)         
+     echo "you select "${application[@]}""    
+     apt install "${application[@]}"                                    #if your return code been with error you fall in the loop   also you must use breake after command
+    ;;
+
+esac
 done
 }
 
