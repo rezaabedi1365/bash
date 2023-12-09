@@ -20,7 +20,7 @@ done
 }
 
 ###call funtion 
-//choice_of beans rice carrots radishes rutabaga spinach
+choice_of beans rice carrots radishes rutabaga spinach
 //           $1    $2    $3      $4       $5       $6
 
 exit 0
