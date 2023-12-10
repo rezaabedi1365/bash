@@ -2,11 +2,11 @@
 
 #!/bin/sh
 
-# Backup www directory
-/bin/tar -cpzf /home/example/backups/www-`date +%Y-%m-%d`.tar.gz /home/example/www/
+# Backup  directory /root/script/  to file backup-date to /root
+/bin/tar -cpzf /root/backup-`date +%Y-%m-%d`.tar.gz /root/scripts/
 
 # Backup database
 /usr/bin/mysqldump --databases -u example --password=example example > /home/example/backups/db-`date +%Y-%m-%d`.sql
 
 # Delete old backups
-/usr/bin/find /home/example/backups/ -mtime +30 -delete
+/usr/bin/find /root/ -mtime +30 -delete
