@@ -17,14 +17,14 @@
      for select first or lasts line
 
 --------------------------------------------------
-#### AWK 
+### AWK 
 
 ```
 awk '{ print $8 }'
 
 ```
 
-#### sed
+### sed
 select line 2
 ```
  sed -n '2p'
@@ -35,14 +35,14 @@ seperate last character
 sed 's/.$//'
 ```
 
-#### cut
+### cut
 
 ```
 awk '{ print $8 }'
 
 ```
 
-#### grep
+### grep
 
 ```
 awk '{ print $8 }'
