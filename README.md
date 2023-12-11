@@ -5,10 +5,16 @@
      for seperate coloumn
      
    * [sed](####find)
-   * [cut](####XCOPY) 
-   * [ grep ](####robocopy) 
+     for seperate raw
+     
+   * [cut](####XCOPY)
+     for seperate charachter with devision
+     
+   * [ grep ](####robocopy)
+     for select line with wildcard
+     
    * [ head ](####rd&rmdir)
-   
+     for select first or lasts line
 
 --------------------------------------------------
 # AWK
