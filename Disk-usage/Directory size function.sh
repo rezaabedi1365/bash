@@ -1,3 +1,4 @@
+#https://stackoverflow.com/questions/16661982/check-folder-size-in-bash
 
 function dsize()
 {
