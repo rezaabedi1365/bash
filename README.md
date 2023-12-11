@@ -1,17 +1,17 @@
 # Bash Shell Scripting Notes
 
-        + [ awk :](#switch-case-statements-)
+        + [ awk :]
 	
-        + [sed :](#logging-)
+        + [sed :]
 
-        + [grep :](#-while--loops-)
+        + [grep :]
 
-        + [cut :](#arithmetic-operations-)
+        + [cut :]
 	
-        + [Debugging Shell Scripts:](#debugging-shell-scripts-)
+        + [Debugging Shell Scripts:]
 
         + [ head :](#manual-debugging-)
-            - [Converting UNIX text scripts to DOS scripts:](#converting-unix-text-scripts-to-dos-scripts-)
+            - [Converting UNIX text scri
 
 
 ## Introduction
