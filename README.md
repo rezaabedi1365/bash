@@ -17,16 +17,13 @@
      for select first or lasts line
 
 --------------------------------------------------
-# AWK
-##### For Seperate Culoumn 
+#### AWK 
+
 ```
 rd [<drive>:]<path> [/s [/q]]
 ```
 
-#### find
-```
-find [/v] [/c] [/n] [/i] [/off[line]] <"string"> [[<drive>:][<path>]<filename>[...]]
-```
+
 
 
 
