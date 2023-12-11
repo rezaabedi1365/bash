@@ -32,3 +32,12 @@ rm -rf $oldest_BACKUP
       #Sort by file size
           //ls /home/example/backups/www-*.tar.gz -S | tail -n 1     *sort by size (bigest file)
           //ls /home/example/backups/www-*.tar.gz -Sr | tail -n 1     *sort by reverse time (smaler file )
+
+# Delete old backups method 3  when / disk usege grather than 80%
+test $(df -h  / | grep ^/ |  awk '{ print $5 }' | sed 's/.$//') -gt 80  && oldest_BACKUP=$(ls /home/*.tar.gz -t | tail -n 1 ) && rm -rf $oldest_BACKUP
+
+# Delete old backups method 4  when / disk available less than 10 GB
+test $(df -h  / | grep ^/ |  awk '{ print $4 }' | sed 's/.$//') -gt 10  && oldest_BACKUP=$(ls /home/*.tar.gz -t | tail -n 1 ) && rm -rf $oldest_BACKUP
+
+# Delete old backups method 5  when direcroty grather than 5 GB
+test $(du -hcs /home/ | head -n 1 | awk '{ print $1 }' | sed 's/.$//') -gt 5242880  && oldest_BACKUP=$(ls /home/*.tar.gz -t | tail -n 1 ) && rm -rf $oldest_BACKUP
