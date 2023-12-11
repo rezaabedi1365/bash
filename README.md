@@ -2,7 +2,8 @@
 # Text seperator command 
 
    * [awk](####rd)
-     for seperate coloumn 
+     for seperate coloumn
+     
    * [sed](####find)
    * [cut](####XCOPY) 
    * [ grep ](####robocopy) 
