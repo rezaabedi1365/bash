@@ -36,23 +36,27 @@ sed 's/.$//'
 ```
 
 ### cut
-
+select part 2 after = devision
 ```
-awk '{ print $8 }'
+cut -d= -f2
 
 ```
 
 ### grep
+select line with wildcard
+```
+ip addr show ens160 | grep inet | grep -v inet6
 
 ```
-awk '{ print $8 }'
+
+#### head and tail
+select first 2 line
+```
+head -n 2
 
 ```
-
-#### head
-
 ```
-awk '{ print $8 }'
+tail -n 2
 
 ```
 
