@@ -25,15 +25,22 @@ awk '{ print $8 }'
 ```
 
 ### sed
-select line 2
+select line 2 from last command output
 ```
  | sed -n '2p'
 
 ```
-seperate last character
+seperate last character from las command output
 ```
-sed 's/.$//'
+| sed 's/.$//'
 ```
+
+select line 2 from file
+```
+ sed -n '2p' filename
+
+```
+
 + sed -n '2p' filename #get the 2nd line and prints the value (p stands for print)
 
 + sed -n '1,2p' filename #get the 1 to 2nd line and prints the values
