@@ -25,10 +25,14 @@ awk '{ print $8 }'
 ```
 
 #### sed
+select line 2
+```
+ sed -n '2p'
 
 ```
-awk '{ print $8 }'
-
+seperate last character
+```
+sed 's/.$//'
 ```
 
 #### cut
