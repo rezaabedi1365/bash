@@ -5,7 +5,7 @@
      for seperate coloumn
      
    * [sed](####find)
-     for seperate raw
+     for seperate raw / select character in word
      
    * [cut](####XCOPY)
      for seperate charachter with devision
