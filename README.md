@@ -20,10 +20,37 @@
 #### AWK 
 
 ```
-rd [<drive>:]<path> [/s [/q]]
+awk '{ print $8 }'
+
 ```
 
+#### sed
 
+```
+awk '{ print $8 }'
+
+```
+
+#### cut
+
+```
+awk '{ print $8 }'
+
+```
+
+#### grep
+
+```
+awk '{ print $8 }'
+
+```
+
+#### head
+
+```
+awk '{ print $8 }'
+
+```
 
 
 
