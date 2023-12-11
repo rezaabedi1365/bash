@@ -35,8 +35,11 @@ seperate last character
 sed 's/.$//'
 ```
 ######## sed -n '2p' filename #get the 2nd line and prints the value (p stands for print)
+
 ######## sed -n '1,2p' filename #get the 1 to 2nd line and prints the values
+
 ######## sed -n '1p;2p;' filename #get the 1st and 2nd line values only
+
 
 ### cut
 select part 2 after = devision
