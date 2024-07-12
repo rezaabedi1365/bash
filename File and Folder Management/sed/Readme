@@ -2,3 +2,4 @@ sudo sed -i 's/prohibit-password/yes/' /etc/ssh/sshd_config
 
 sudo sed -i 's/ SystemdCgroup = false/ SystemdCgroup = true/' /etc/containerd/config.toml
 
+sudo sed -i 's/cidr: 192\.168\.0\.0\/16/cidr: 10.10.12.0\/24/g' custom-resources.yaml
