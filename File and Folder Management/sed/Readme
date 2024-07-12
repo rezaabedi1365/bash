@@ -1,1 +1,4 @@
 sudo sed -i 's/prohibit-password/yes/' /etc/ssh/sshd_config
+
+sudo sed -i 's/ SystemdCgroup = false/ SystemdCgroup = true/' /etc/containerd/config.toml
+
